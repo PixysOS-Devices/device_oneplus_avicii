@@ -1,4 +1,3 @@
-
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -34,8 +33,6 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
-
-TARGET_USES_64_BIT_BINDER := true
 
 # A/B
 AB_OTA_UPDATER := true
