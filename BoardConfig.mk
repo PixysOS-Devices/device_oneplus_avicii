@@ -166,7 +166,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy/SEPolicy.mk
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
