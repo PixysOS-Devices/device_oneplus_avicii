@@ -22,6 +22,9 @@ persist.vendor.color.matrix=2
 # CNE
 persist.vendor.cne.feature=1
 
+# Codec2 for audio and OMX for Video
+debug.stagefright.ccodec=1
+
 # DPM
 persist.vendor.dpm.feature=9
 
