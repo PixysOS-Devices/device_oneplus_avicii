@@ -47,6 +47,8 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vbmeta_system
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
 TARGET_NO_BOOTLOADER := true
