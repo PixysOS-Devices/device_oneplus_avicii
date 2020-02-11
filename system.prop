@@ -51,6 +51,7 @@ mm.enable.smoothstreaming=true
 vendor.mm.enable.qcom_parser=16711679
 persist.mm.enable.prefetch=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+ro.media.recorder-max-base-layer-fps = 60
 
 # Perf
 ro.vendor.qti.core_ctl_max_cpu=4
