@@ -1,2 +1,2 @@
 allow system_server default_android_service:service_manager { add };
-
+r_dir_file(system_server, sysfs_battery_supply)
