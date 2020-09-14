@@ -40,6 +40,8 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
 # The first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 29
