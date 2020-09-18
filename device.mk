@@ -231,3 +231,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # FOD animations
 TARGET_WANTS_FOD_ANIMATIONS := true
+
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor \
+    libhidltransport
