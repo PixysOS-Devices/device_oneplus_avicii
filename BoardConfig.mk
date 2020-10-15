@@ -162,6 +162,7 @@ BOARD_ROOT_EXTRA_FOLDERS := op1 op2
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy/SEPolicy.mk
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
