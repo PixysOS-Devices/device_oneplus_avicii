@@ -161,6 +161,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# override  ota assert
+TARGET_OTA_ASSERT_DEVICE := avicii,OnePlusNord
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0:64 \
