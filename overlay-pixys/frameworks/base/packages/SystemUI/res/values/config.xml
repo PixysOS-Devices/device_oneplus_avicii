@@ -22,6 +22,7 @@
 <resources>
     <!-- Color of the FOD view -->
     <color name="config_fodColor">#ffffe6</color>
+    <color name="config_fodColorBackground">#00000000</color>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
