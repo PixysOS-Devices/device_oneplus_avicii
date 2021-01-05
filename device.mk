@@ -44,6 +44,14 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # The first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Kernel
+LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
+LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel \
+    $(LOCAL_DTB):dtb.img
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
