@@ -187,3 +187,6 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/oneplus/avicii/BoardConfigVendor.mk
+
+# Inherit vendor and odm partitions
+-include vendor/oneplus/avicii-vendor/BoardConfig.mk
