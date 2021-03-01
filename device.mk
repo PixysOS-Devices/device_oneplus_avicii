@@ -26,7 +26,7 @@ $(call inherit-product, vendor/oneplus/avicii/avicii-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-pixys
 
 PRODUCT_PACKAGES += \
     OnePlusIconShapeCircleOverlay \
@@ -47,8 +47,7 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
-    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml
 
 # A/B
 AB_OTA_UPDATER := true
@@ -148,10 +147,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oneplus_lito
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.oneplus_lito
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_vendor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_vendor.xml
@@ -205,18 +200,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-qti.xml
 
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.oneplus_lito
-
 # tri-state-key
 PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key_daemon
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
 
 # Update engine
 PRODUCT_PACKAGES += \
@@ -239,3 +226,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# FOD animations
+TARGET_WANTS_FOD_ANIMATIONS := true
