@@ -11,12 +11,19 @@
   },
   {
     "repository": "vendor_oneplus_avicii",
-    "target_path": "vendor/oneplus/avicii"
+    "target_path": "vendor/oneplus/avicii",
+    "branch": "eleven"
   },
   {
     "remote": "github",
     "repository": "LineageOS/android_packages_resources_devicesettings", 
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-18.1"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii-vendor",
+    "branch": "eleven",
+    "remote": "pixys-devices-gitlab"
   }
 ]
