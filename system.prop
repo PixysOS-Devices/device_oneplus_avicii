@@ -41,6 +41,10 @@ persist.vendor.ims.disableADBLogs=1
 vendor.iop.enable_prefetch_ofr=1
 vendor.iop.enable_uxe=0
 
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
 # Media
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
