@@ -25,5 +25,11 @@
     "target_path": "vendor/oneplus/avicii-vendor",
     "branch": "eleven",
     "remote": "pixys-devices-gitlab"
+  },
+  {
+    "repository": "vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus-firmware",
+    "branch": "eleven",
+    "remote": "pixys-devices-gitlab"
   }
 ]
