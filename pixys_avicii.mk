@@ -28,13 +28,13 @@ PRODUCT_NAME := pixys_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := Nord
+PRODUCT_MODEL := AC2001
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlusNord \
-    PRODUCT_NAME=OnePlusNord \
+    PRODUCT_DEVICE=Nord \
+    PRODUCT_NAME=Nord \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
 
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys"
