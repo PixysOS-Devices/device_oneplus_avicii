@@ -147,9 +147,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gf_input.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gf_input.kl
 
 # Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_profiles_vendor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_vendor.xml
-
 PRODUCT_PACKAGES += \
     libavservices_minijail
 
