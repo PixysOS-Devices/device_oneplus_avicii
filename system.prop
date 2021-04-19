@@ -9,6 +9,7 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
 camera.disable_zsl_mode=true
+persist.camera.privapp.list=com.oneplus.camera
 
 # Charger
 ro.charger.disable_init_blank=true

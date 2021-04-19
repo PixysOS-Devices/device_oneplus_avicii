@@ -31,5 +31,11 @@
     "target_path": "vendor/oneplus-firmware",
     "branch": "eleven",
     "remote": "pixys-devices-gitlab"
+  },
+  {
+    "repository": "vendor_oneplus_avicii-camera",
+    "target_path": "vendor/oneplus/avicii-camera",
+    "branch": "eleven",
+    "remote": "pixys-gitlab"
   }
 ]
