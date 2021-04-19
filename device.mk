@@ -25,6 +25,9 @@
 # Google Camera
 $(call inherit-product-if-exists, packages/apps/GoogleCamera/config.mk)
 
+# Inherit Oneplus Camera
+$(call inherit-product, vendor/oneplus/avicii-camera/config.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
