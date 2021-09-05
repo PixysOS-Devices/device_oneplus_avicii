@@ -22,6 +22,6 @@
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
-        <item>org.lineageos.settings.device.KeyHandler</item>
+        <item>org.carbonrom.settings.slider_settings.KeyHandler</item>
     </string-array>
 </resources>
