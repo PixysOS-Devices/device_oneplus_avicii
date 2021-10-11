@@ -7,6 +7,7 @@
   {
     "repository": "kernel_oneplus_sm7250",
     "target_path": "kernel/oneplus/sm7250"
+    "branch": "eleven"
   },
   {
     "repository": "vendor_oneplus_avicii",
@@ -27,15 +28,9 @@
   },
   {
     "repository": "vendor_oneplus-firmware",
-    "target_path": "vendor/oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
     "branch": "eleven",
     "remote": "pixys-devices-gitlab"
-  },
-  {
-    "repository": "vendor_oneplus_avicii-camera",
-    "target_path": "vendor/oneplus/avicii-camera",
-    "branch": "eleven",
-    "remote": "pixys-gitlab"
   },
   {
     "repository": "KakatkarAkshay/packages_apps_GoogleCamera",
