@@ -21,6 +21,7 @@ DEVICE_PATH := device/oneplus/avicii
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
