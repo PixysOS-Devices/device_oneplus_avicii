@@ -1,0 +1,39 @@
+[
+  {
+    "repository": "hardware_oneplus",
+    "target_path": "hardware/oneplus",
+    "branch": "twelve"
+  },
+  {
+    "repository": "kernel_oneplus_sm7250",
+    "target_path": "kernel/oneplus/avicii",
+    "branch": "twelve"
+  },
+  {
+    "repository": "device_oneplus_sm7250-common",
+    "target_path": "device/oneplus/sm7250-common",
+    "branch": "twelve"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii",
+    "branch": "twelve"
+  },
+  {
+    "repository": "vendor_oneplus_sm7250-common",
+    "target_path": "vendor/oneplus/sm7250-common",
+    "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings", 
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-19.0"
+  },
+  {
+    "repository": "vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
+    "branch": "eleven",
+    "remote": "pixys-devices-gitlab"
+  }
+]
