@@ -112,6 +112,12 @@ vendor/lib64/hw/audio.primary.lito.so
 vendor/firmware/tfa98xx.cnt
 
 # Camera
+-system_ext/framework/vendor.oneplus.hardware.camera-V1.0-java.jar
+-system_ext/framework/vendor.oneplus.hardware.CameraMDMHIDL-V1.0-java.jar
+system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
+system_ext/lib64/vendor.oneplus.hardware.camera@1.0.so
+system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so
+system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
 vendor/bin/hw/vendor.oneplus.hardware.camera@1.0-service
 vendor/bin/hw/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service
 vendor/bin/vl53l1_daemon_main
@@ -131,6 +137,7 @@ vendor/etc/camera/distortion_result_front.bin
 vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
 vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc
 vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc
+vendor/etc/init/vl53l1.rc
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/camera/com.qti.sensor.gc2375.so
@@ -221,6 +228,8 @@ vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/lib_oneplus_watermark.so
 vendor/lib64/libAlgoProcess.so
+vendor/lib64/libaps_frame_registration.so
+vendor/lib64/libapsdarksight.so
 vendor/lib64/libapsexif.so
 vendor/lib64/libapsjpeg.so
 vendor/lib64/libarcsoft_beautyshot.so
@@ -273,18 +282,29 @@ vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libdualcamirfusion.arcsoft.so
 vendor/lib64/libDxHdcp.so
+vendor/lib64/libFaceBeautyLiteCap.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
+vendor/lib64/libhistogram.so
+vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libipebpsstriping.so
+vendor/lib64/libloadalgo_stub.so
+vendor/lib64/libminui.so
+vendor/lib64/libminui_vendor.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmorpho_dcface.so
 vendor/lib64/libmorpho_image_refiner_deflicker.so
 vendor/lib64/libmpbase.so
+vendor/lib64/libMpeghSwEnc.so
+vendor/lib64/libnanopb.so
+vendor/lib64/libnative-api.so
+vendor/lib64/libnpu.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libOPPO_Front_SCPortrait.so
 vendor/lib64/libOPPO_SCPortrait.so
 vendor/lib64/libos.so
+vendor/lib64/libPlatformValidatorShared.so
 vendor/lib64/libPolarrRender.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libsnpe_adsp.so
