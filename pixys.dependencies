@@ -27,8 +27,7 @@
   {
     "remote": "github",
     "repository": "aswin7469/android_packages_resources_devicesettings", 
-    "target_path": "packages/resources/devicesettings",
-    "branch": "twelve"
+    "target_path": "packages/resources/devicesettings"
   },
   {
     "repository": "vendor_oneplus-firmware",
