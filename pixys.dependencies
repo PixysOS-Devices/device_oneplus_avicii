@@ -25,21 +25,15 @@
     "branch": "twelve"
   },
   {
-    "remote": "github",
-    "repository": "aswin7469/android_packages_resources_devicesettings", 
-    "target_path": "packages/resources/devicesettings"
-  },
-  {
     "repository": "vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
     "branch": "eleven",
     "remote": "pixys-devices-gitlab"
   },
   {
-    "repository"  : "aswin7469/vendor_oneplus_wfdcommon",
-    "target_path" : "vendor/oneplus/wfdcommon",
-    "branch"      : "lito",
-    "remote"      : "github"
+    "repository": "packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "remote": "pixys"
   },
   {
     "repository": "vendor_oneplus_avicii-camera",
