@@ -489,6 +489,8 @@ vendor/etc/sensors/config/stk3a5x_0.json
 vendor/etc/sensors/config/sx9324_0.json
 vendor/etc/sensors/config/sx9324up_0.json
 vendor/etc/sensors/sns_reg_config
+vendor/lib/sensors.ssc.so
+vendor/lib64/sensors.ssc.so
 
 # Touchscreen Firmware
 vendor/firmware/tp/FW_20801_GT885.bin
