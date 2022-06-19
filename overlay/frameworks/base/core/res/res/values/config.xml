@@ -363,4 +363,15 @@
         <item>104</item>
      </integer-array>
 
+    <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
+        <item>/system_ext/app/KeyHandler/KeyHandler.apk</item>
+    </string-array>
+
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>com.android.touch.gestures.KeyHandler</item>
+        <item>org.lineageos.settings.device.KeyHandler</item>
+    </string-array>
 </resources>
