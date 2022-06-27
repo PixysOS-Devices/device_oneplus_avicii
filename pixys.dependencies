@@ -34,11 +34,5 @@
     "repository": "packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "remote": "pixys"
-  },
-  {
-    "repository": "vendor_oneplus_avicii-camera",
-    "target_path": "vendor/oneplus/avicii-camera",
-    "branch": "eleven",
-    "remote": "pixys-gitlab"
   }
 ]
