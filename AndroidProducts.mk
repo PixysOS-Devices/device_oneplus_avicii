@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_avicii.mk
+    $(LOCAL_DIR)/pixys_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_avicii-eng \
-    aosp_avicii-user \
-    aosp_avicii-userdebug
+    pixys_avicii-eng \
+    pixys_avicii-user \
+    pixys_avicii-userdebug

@@ -1,24 +1,20 @@
 [
   {
     "repository": "hardware_oplus",
-    "target_path": "hardware/oplus",
-    "remote": "pixel"
+    "target_path": "hardware/oplus"
   },
   {
     "repository": "kernel_oneplus_sm7250",
-    "target_path": "kernel/oneplus/sm7250",
-    "branch": "thirteen"
+    "target_path": "kernel/oneplus/avicii"
   },
   {
     "repository": "vendor_oneplus_avicii",
-    "target_path": "vendor/oneplus/avicii",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "target_path": "vendor/oneplus/avicii"
   },
   {
     "repository": "vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
     "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote": "pixys-gitlab"
   }
 ]
