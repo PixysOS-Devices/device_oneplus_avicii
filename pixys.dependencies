@@ -12,9 +12,9 @@
     "target_path": "vendor/oneplus/avicii"
   },
   {
-    "repository": "vendor_oneplus-firmware",
+    "repository": "superioros/vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
     "branch": "thirteen",
-    "remote": "pixys-gitlab"
+    "remote": "gitlab"
   }
 ]
