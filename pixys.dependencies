@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "repository": "kernel_oneplus_sm7250",
+    "target_path": "kernel/oneplus/avicii"
+  },
+  {
+    "repository": "superioros/vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii",
+    "branch":"fourteen",
+    "remote":"gitlab"
+  }
+]
